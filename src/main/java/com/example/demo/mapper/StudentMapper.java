@@ -8,12 +8,12 @@ import org.mapstruct.Mapping;
 @Mapper
 public interface StudentMapper {
 
-    @Mapping(source = "id", target = "id")
-    @Mapping(source = "name", target = "name")
+//    @Mapping(source = "id", target = "id")
+//    @Mapping(source = "name", target = "name")
     Student from(StudentDto dto);
 
-    @Mapping(source = "id", target = "id")
-    @Mapping(source = "name", target = "name")
+//    @Mapping(source = "id", target = "id")
+//    @Mapping(source = "name", target = "name")
     StudentDto to(Student student);
 
 }

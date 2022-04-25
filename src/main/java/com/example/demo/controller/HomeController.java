@@ -4,6 +4,6 @@ import com.example.demo.entity.Student;
 
 public class HomeController {
     public void demo(){
-        var student = new Student();
+//        var student = Student.builder().build();
     }
 }
