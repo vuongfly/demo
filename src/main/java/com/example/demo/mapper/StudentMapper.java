@@ -5,7 +5,7 @@ import com.example.demo.entity.Student;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-@Mapper
+@Mapper(componentModel = "spring")
 public interface StudentMapper {
 
 //    @Mapping(source = "id", target = "id")
