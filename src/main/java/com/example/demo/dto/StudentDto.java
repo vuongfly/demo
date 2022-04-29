@@ -7,7 +7,7 @@ import lombok.*;
 @Getter
 @Setter
 @NoArgsConstructor
-public class StudentDto {
+public class StudentDto extends BaseDto{
     private long id;
     private String name;
 }

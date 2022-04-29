@@ -7,7 +7,7 @@ import lombok.*;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Student {
+public class Student extends BaseEntity{
     private long id;
     private String name;
 }
